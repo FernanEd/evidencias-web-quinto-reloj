@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+nav {
+  width: 100%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+a {
+  color: #38f;
+}
+
+.selected {
+  color: #83f;
+}
+
+body {
+  font-family: "Roboto";
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  gap: 5rem;
+}
+
+#reloj {
+  background-color: #9cf;
+  font-size: 3rem;
+  text-align: center;
+
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 2px 12px 1px rgba(0, 0, 0, 0.2);
+}
+
+.btn {
+  background-color: #38f;
+  text-align: center;
+  border: 0;
+  color: #fff;
+  cursor: pointer;
+
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 12px 1px rgba(0, 0, 0, 0.2);
+}
+
+#cronometro #display {
+  font-size: 3rem;
+  text-align: center;
+  margin: 2rem 0;
+}
+
+#cronometro #display::after {
+  content: "s";
+}
+
+.btn:hover {
+  background-color: #83f;
+}
